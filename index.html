@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W7 review</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="client.js"></script>
+</head>
+<body>
+    <h1>W7 review</h1>
+    <div id="inputDiv">
+        <select id="sizeIn">
+            <option>tiny</option>
+            <option>small</option>
+            <option>medium</option>
+            <option>large</option>
+            <option>huge</option>
+            <option>enormous</option>
+        </select>
+        <select id="colorIn">
+            <option>red</option>
+            <option>orange</option>
+            <option>yellow</option>
+            <option>green</option>
+            <option>blue</option>
+            <option>purple</option>
+        </select>
+        <input type="text" placeholder="description" id="descriptionIn">
+        <button id="addItemButton">Add Item</button>
+    </div>
+    <h2>Inventory:</h2>
+    <div id="inventoryDiv">
+        <ul id="inventoryOut">
+
+        </ul>
+    </div>
+    <div id="searchDiv">
+        <select id="sizeSearchIn">
+            <option>tiny</option>
+            <option>small</option>
+            <option>medium</option>
+            <option>large</option>
+            <option>huge</option>
+            <option>enormous</option>
+        </select>
+        <select id="colorSearchIn">
+            <option>red</option>
+            <option>orange</option>
+            <option>yellow</option>
+            <option>green</option>
+            <option>blue</option>
+            <option>purple</option>
+        </select>
+        <button id="searchButton">Search</button>
+        <h2>Matches:</h2>
+        <ul id="matchesOut">
+
+        </ul>
+    </div>
+</body>
+</html>
